@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <!-- 
+  Each vertex and edge have an id used as the target for some searches. 
+  -->
+  <!--
+  The values of both vertices and edges are instances of their contained
+  V and E types, shown here as strings.  They could be numbers or any
+  other type that can be serialized to a string.
+  -->
+  <!--
+  The vertex bodies are composed of edge elements.
+  -->
+  <!--
+  The edge bodies contain a single integer that is the id of the vertex
+  to which they point.
+  -->
+<graph>
+  <!-- Demo Graph Representation for CSE687 - OOD, Project #2 -->
+  <name>Demo</name>
+  <date>25 February, 2012</date>
+  <vertex id="1" value="v1">
+    <edge id="1" value="e1">4</edge>
+    <edge id="2" value="e2">7</edge>
+  </vertex>
+  <vertex id="2" value="v2">
+    <edge id="3" value="e3">5</edge>
+    <edge id="4" value="e4">7</edge>
+    <edge id="10" value="e10">4</edge>
+  </vertex>
+  <vertex id="3" value="v3">
+    <edge id="5" value="e5">1</edge>
+  </vertex>
+  <vertex id="4" value="v4">
+  </vertex>
+  <vertex id="5" value="v5">
+    <edge id="6" value="e6">6</edge>
+    <edge id="7" value="e7">7</edge>
+  </vertex>
+  <vertex id="6" value="v6">
+    <edge id="8" value="e8">2</edge>
+  </vertex>
+  <vertex id="7" value="v7">
+    <edge id="9" value="e9">3</edge>
+  </vertex>
+  <vertex id="8" value="v8">
+    <edge id="11" value="e11">9</edge>
+  </vertex>
+  <vertex id="9" value="v2">
+    <edge id="19" value="e19">15</edge>
+  </vertex>
+  <vertex id="10" value="v10">
+    <edge id="12" value="e12">12</edge>
+  </vertex>
+  <vertex id="11" value="v11">
+    <edge id="13" value="e13">12</edge>
+  </vertex>
+  <vertex id="12" value="v2">
+    <edge id="14" value="e14">13</edge>
+  </vertex>
+  <vertex id="13" value="v13">
+    <edge id="15" value="e4">10</edge>
+  </vertex>
+  <vertex id="14" value="v14">
+    <edge id="16" value="e16">12</edge>
+  </vertex>
+  <vertex id="15" value="v15">
+    <edge id="17" value="e17">16</edge>
+  </vertex>
+  <vertex id="16" value="v16">
+    <edge id="18" value="e18">15</edge>
+  </vertex>
+</graph>
